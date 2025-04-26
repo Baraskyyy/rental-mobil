@@ -12,6 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('data_mobils', function (Blueprint $table) {
+            $table->uuid('uuid')->unique(); // ← Tambahkan ini
             $table->id();
             $table->timestamps();
             $table->string('nama');

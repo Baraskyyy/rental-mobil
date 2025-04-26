@@ -10,6 +10,7 @@ class adminController extends Controller
 {
     public function index()
     {
+        
         return view('admin.dashboard');
     }
 
@@ -20,9 +21,9 @@ class adminController extends Controller
 
     public function data()
     {
-        // $data = rental::all();
-        $data_mobil = data_mobil::all();
-        return view('admin.data',compact('data_mobil'));
+        $data = data_mobil::all();
+        // $data_mobil = data_mobil::all();
+        return view('admin.data',compact('data'));
     
     }
     public function pesanan()

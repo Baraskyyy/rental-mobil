@@ -68,6 +68,15 @@
       color: #ffffff;
     }
 
+    body.dark-mode select{
+      background-color: #2b4575;
+      color: #ffffff;
+    }
+
+    body.dark-mode button{
+      color: #dbdfe7;
+    }
+
     body.dark-mode .tambah-data textarea{
       background-color: #2b4575;
       color: #ffffff;
@@ -88,6 +97,16 @@
     }
     body.dark-mode .modal{
       background-color: #1e283a;
+    }
+    body.dark-mode .upload label{
+      color: #000000;
+    }
+    body.dark-mode .upload .gambar-mobil{
+      color: #ffffff;
+    }
+    body.dark-mode .upload .upload-gambar{
+      background-color: #2b4575;
+      color: #ffffff;
     }
   </style>
 

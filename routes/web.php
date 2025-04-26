@@ -22,7 +22,7 @@ route::controller(AuthController::class)->group(function(){
 
 route::controller(homeController::class)->group(function(){
     route::get('/', 'index')->name('home');
-    route::get('/detail', 'detail')->name('detail');
+    route::get('/detail/{id}', 'detail')->name('detail');
     route::get('/mobil', 'mobil')->name('mobil');
 });
 
